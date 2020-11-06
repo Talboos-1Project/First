@@ -15,6 +15,7 @@ th:hover {
   color: #f4f4f4;
   text-shadow: black 0px 0 5px;
 }
+
 a {
   color: white;
   text-decoration: inherit;
@@ -66,6 +67,7 @@ input[type=submit]:hover {
   table-layout: fixed ;
   width:80%;
   border: 2px solid white;
+
 }
 
 .contactTitle {
@@ -117,4 +119,5 @@ input[type=submit]:hover {
 
 .socialMedia {
   margin: 30px 550px 15px;
+
 }
