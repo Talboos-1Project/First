@@ -72,13 +72,11 @@ input[type=submit]:hover {
 
 .calculator {
   text-align: center;
-  border-top: 2px ;
-  border-bottom: 2px ;
+  border-top: 2px;
+  border-bottom: 2px;
   border-left: 0;
   border-right: 0;
-  background-color: #8bcdcd;
-  height: 600px;
-  margin: 37px 0;
+  margin: 40px 0;
   opacity: 0.5;
 }
 
@@ -97,9 +95,8 @@ input[type=submit]:hover {
   text-align: center;
   background-color: #7579e7;
   height: 600px;
-  margin: 37px 0;
+  margin: 40px 0;
   opacity: 0.5;
-
 }
 
 .kanbanBoard {
@@ -110,33 +107,18 @@ input[type=submit]:hover {
   text-align: center;
   background-color: #7579e7;
   height: 600px;
-  margin: 37px 0;
+  margin: 40px 0;
   opacity: 0.5;
 }
 
 .calender {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
+  text-align: center;
+  border-top: 2px;
+  border-bottom: 2px;
   border-left: 0;
   border-right: 0;
-  text-align: center;
-  background-color: #7579e7;
-  height: 600px;
-  margin: 37px 0;
-  opacity: 0.5;
+  margin: 40px 0;
 }
-
-/*.calender {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  border-left: 0;
-  border-right: 0;
-  text-align: center;
-  background-color: #7579e7;
-  height: 600px;
-  margin: 37px 0;
-  opacity: 0.5;
-}*/
 
 .kanbanBoard {
   border-top: 2px solid;
@@ -145,18 +127,6 @@ input[type=submit]:hover {
   border-right: 0;
   text-align: center;
   background-color: #7579e7;
-  height: 600px;
-  margin: 37px 0;
-  opacity: 0.5;
-}
-
-.calculator {
-  text-align: center;
-  border-top: 2px ;
-  border-bottom: 2px ;
-  border-left: 0;
-  border-right: 0;
-  background-color: #8bcdcd;
   height: 600px;
   margin: 37px 0;
   opacity: 0.5;
