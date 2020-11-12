@@ -1,41 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Talboos</title>
 
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <title>Talboos</title>
 
-  <body>
-    <h1 class="title">Talboos</h1>
-    <table class="Toolbar">
-      <tr>
-        <th>Home</th>
-        <th>Services</th>
-        <th><a href="contact.html">Contact</a></th>
-        <th>About</th>
+  <script>
+    function dis(val) {
+      document.getElementById("result").value += val
+    }
+
+    function solve() {
+      let x = document.getElementById("result").value
+      let y = eval(x)
+      document.getElementById("result").value = y
+    }
+
+    function clr() {
+      document.getElementById("result").value = ""
+    }
+  </script>
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <h1 class="title">Talboos</h1>
+  <table class="Toolbar">
+    <tr>
+      <th>Home</th>
+      <th>Services</th>
+      <th><a href="contact.html">Contact</a></th>
+      <th>About</th>
+    </tr>
+  </table>
+
+  <section>
+
+  </section>
+
+  <section class="calculator">
+    <h2>calculator</h2>
+    <table class="calculator_table" align="center">
+      <tr class="calculator_body">
+        <td colspan="3"><input type="text" id="result" /></td>
+        <td><input class=" c_botton " type="button" value="c" onclick="clr()" /> </td>
+      </tr>
+      <tr class="calculator_body">
+        <td><input type="button" value="1" onclick="dis('1')" /> </td>
+        <td><input type="button" value="2" onclick="dis('2')" /> </td>
+        <td><input type="button" value="3" onclick="dis('3')" /> </td>
+        <td><input type="button" value="/" onclick="dis('/')" /> </td>
+      </tr>
+      <tr class="calculator_body">
+        <td><input type="button" value="4" onclick="dis('4')" /> </td>
+        <td><input type="button" value="5" onclick="dis('5')" /> </td>
+        <td><input type="button" value="6" onclick="dis('6')" /> </td>
+        <td><input type="button" value="-" onclick="dis('-')" /> </td>
+      </tr>
+      <tr class="calculator_body">
+        <td><input type="button" value="7" onclick="dis('7')" /> </td>
+        <td><input type="button" value="8" onclick="dis('8')" /> </td>
+        <td><input type="button" value="9" onclick="dis('9')" /> </td>
+        <td><input type="button" value="+" onclick="dis('+')" /> </td>
+      </tr>
+      <tr class="calculator_body">
+        <td><input type="button" value="." onclick="dis('.')" /> </td>
+        <td><input type="button" value="0" onclick="dis('0')" /> </td>
+        <td><input type="button" value="=" onclick="solve()" /> </td>
+        <td><input type="button" value="*" onclick="dis('*')" /> </td>
       </tr>
     </table>
 
-    <section>
+  </section>
 
-    </section>
+  <section class="calender">
+    <h2>Calender</h2>
+  </section>
 
-    <section class="calculator">
-      <h2>Calculator_Khaled</h2>
-    </section>
+  <section class="toDoList">
+    <h2>To Do List</h2>
+  </section>
 
-    <section class="calender">
-      <h2>Calender</h2>
-    </section>
+  <section class="kanbanBoard">
+    <h2>Kanban Board</h2>
+  </section>
+</body>
 
-    <section class="toDoList">
-      <h2>To Do List</h2>
-    </section>
-
-    <section class="kanbanBoard">
-      <h2>Kanban Board</h2>
-    </section>
-  </body>
 </html>
