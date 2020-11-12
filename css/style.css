@@ -1,6 +1,10 @@
-
 body {
   background-color: #8bcdcd;
+  margin: 0;
+}
+
+h2 {
+  color: white;
 }
 
 th {
@@ -20,6 +24,7 @@ a {
   color: white;
   text-decoration: inherit;
 }
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -45,11 +50,7 @@ input[type=submit]:hover {
   background-color: #7579e7;
 }
 
-
-
-
 /******************************Classes****************************/
-
 .text {
   color: white;
 }
@@ -64,59 +65,140 @@ input[type=submit]:hover {
 
 .Toolbar {
   margin: 10px auto 20px;
-  table-layout: fixed ;
-  width:80%;
+  table-layout: fixed;
+  width: 80%;
   border: 2px solid white;
-
 }
 
-.contactTitle {
-  margin-bottom: 20px;
-  color: white;
+.calculator {
   text-align: center;
-  font-size: 100px;
-}
-
-.fa {
-  padding: 15px;
-  font-size: 25px;
-  width: 25px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 50%;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
+  border-top: 2px ;
+  border-bottom: 2px ;
+  border-left: 0;
+  border-right: 0;
+  background-color: #8bcdcd;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
 }
 
 .container {
-  margin: 10px 20% ;
+  margin: 10px 20%;
   border-radius: 5px;
   background-color: #d9ecf2;
   padding: 20px;
 }
 
-.socialMedia {
-  margin: 30px 550px 15px;
+.toDoList {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  background-color: #7579e7;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+
+}
+
+.kanbanBoard {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  background-color: #7579e7;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+}
+
+.calender {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  background-color: #7579e7;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+}
+
+/*.calender {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  background-color: #7579e7;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+}*/
+
+.kanbanBoard {
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  background-color: #7579e7;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+}
+
+.calculator {
+  text-align: center;
+  border-top: 2px ;
+  border-bottom: 2px ;
+  border-left: 0;
+  border-right: 0;
+  background-color: #8bcdcd;
+  height: 600px;
+  margin: 37px 0;
+  opacity: 0.5;
+}
+
+.calculator_table {
+  margin: auto auto;
+  border: 1px solid;
+}
+
+.c_botton {
+  font-size: 30px;
+  border-radius: 40%;
+}
+
+.calculator_body {
+  background-color: black;
+}
+
+input[type="button"] {
+  font-size: 2em;
+  padding: 20px 40px;
+  background-color: #ffa41b;
+  color: black;
+  border: solid black 5px;
+  width: 100%
+}
+
+input[type="button"]:hover {
+  font-size: 2em;
+  padding: 20px 40px;
+  background-color: #e4e978;
+  color: black;
+  border: solid black 5px;
+  width: 100%
+}
+
+input[type="text"] {
+  font-size: 2em;
+  padding: 40px;
+  background-color: white;
+  border: solid black 2px;
+  border-radius: 15%;
+  width: 100%
 }

@@ -1,0 +1,127 @@
+.calenderHeadCell {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+  color: #f4f4f4;
+  background-color: #9ab3f5;
+  text-shadow: black 0px 0 5px;
+}
+
+.calenderHeadRow {
+
+}
+
+.calenderCell {
+  height: 125px;
+  width: 150px;
+  border: 1px solid #e5e5e5;
+  padding: 0;
+  vertical-align: top;
+}
+
+.divCalenderTable {
+  border: 2px white;
+  border-style: double;
+  margin: 0 auto 20px;
+  padding: 0;
+  width: 1050px;
+}
+
+.calenderTable {
+  display: contents;
+}
+
+.calenderRow {
+  margin: 0;
+}
+
+.day {
+  font-size: 20px;
+  margin: 2px;
+  /* min-width: 19px; */
+  padding: 3px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  float: right;
+  color: white;
+}
+
+.day:hover {
+  background-color: #d9ecf2;
+  border-radius: 50%;
+  color: #394867;
+  text-shadow: #9ab3f5 0px 0 5px
+}
+.trHeadOfCalender {
+  width: 1050px;
+  height: 75px;
+  vertical-align: middle;
+}
+
+.h2Date {
+  margin: 0;
+}
+
+.date {
+  height: 75px;
+  width: 300px;
+  text-align: left;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  color: #394867;
+  background-color: #d9ecf2;
+  text-shadow: #9ab3f5 0px 0 5px;
+}
+
+.monthCategory {
+  height: 75px;
+  width: 450px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0;
+  color: #394867;
+  background-color: #d9ecf2;
+  text-shadow: #9ab3f5 0px 0 5px;
+}
+
+.FrontOrBack {
+  height: 75px;
+  width: 300px;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20px;
+  margin: 0;
+  color: #394867;
+  background-color: #d9ecf2;
+  text-shadow: #9ab3f5 0px 0 5px
+}
+
+.divHeadOfCalender {
+  border: 2px white;
+  border-style: double;
+  margin: 20px auto 0px;
+  padding: 0;
+  width: 1050px;
+  height: 75px;
+  vertical-align: middle;
+}
+
+.dayContent {
+  margin: 40px 0 0;
+}
+
+.dayContentElement {
+  position: relative;
+  height: 20px;
+  margin: 10px 0;
+  color: #f4f4f4;
+  background-color: #9ab3f5;
+  text-shadow: black 0px 0 5px;
+  padding: 5px;
+}
