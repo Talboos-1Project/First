@@ -141,19 +141,20 @@ input[type=submit]:hover {
 
 .task {
   text-align: center;
-  height: 200px;
+  height: 210px;
   margin: 20px 0;
   border: 2px solid black;
+  background-color: white;
+  padding-top: 0;
+
 }
 
-.task-title {
-  height: 33%;
-  background-color: black;
-  padding: 10px;
+input[type="date"] {
+  background:#fff url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat ;
 }
-.task-content {
-  height: 67%;
-  background-color: white;
+
+.task-workers{
+
 }
 
 .kanban-third-row {

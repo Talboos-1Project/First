@@ -313,11 +313,11 @@
                   New Event.
                 </div>
               </div>
-            </td>
             <td class="calenderCell">
-              <div class="day">
-                0
-              </div>
+            </td>
+            <div class="day">
+              0
+            </div>
             </td>
             <td class="calenderCell">
               <div class="day">
@@ -340,35 +340,51 @@
         <div class="kanban-first-row col-lg-4 col-md-6 col-sm-12">
           <h3>To Do</h3>
           <div class="kanban-second-row col">
-            <div class="task">
-              <div class="task-title">
-                <h3 style="color: white;">Udemy learning</h3>
+
+            <div class="container task">
+              <div class="row" style="padding: 0; background-color: black;  border-radius: 15px 50px 30px;">
+
+                <h3 class="col" style="color: white; height: 40px; ">Udemy learning</h3>
               </div>
-              <div class="task-content">
-                <div class="task-workers">
-                  <i class="fa fa-female" style="font-size:36px"></i>
-                  <p>Reem</p>
-                  <i class="fa fa-male" style="font-size:36px"></i>
-                  <p>Khaled</p>
+              <div class="row">
+                <div class="col col-lg-4 task-workers">
+                  <i class="fa fa-female" style="font-size:36px;color:lightpink"></i>
+                  <h4>Shadi</h4>
+                  <i class="fa fa-male" style="font-size:36px;color:lightblue;"></i>
+                  <h4>Khaled</h4>
                 </div>
-                <div class="task-deadline">
-                  <p>15.01.2021</p>
+                <div class="col col-lg-8 task-deadline">
+                  <form action="/action_page.php">
+                    <h3>Deadline <br> </h3>
+                    <input type="date" id="deadline" name="deadline">
+                  </form>
                 </div>
               </div>
+
             </div>
-            <div class="task">
-              <div class="task-title">
 
+            <div class="container task">
+
+              <div class="row" style="padding: 0; background-color: black;  border-radius: 15px 50px 30px;">
+                <h3 class="col" style="color: white; height: 40px; ">Udemy learning</h3>
               </div>
-              <div class="task-content">
-                <div class="task-workers">
-
+              <div class="row">
+                <div class="col col-lg-4 task-workers">
+                  <i class="fa fa-female" style="font-size:36px;color:lightpink"></i>
+                  <h4>Reem</h4>
+                  <i class="fa fa-male" style="font-size:36px;color:lightblue;"></i>
+                  <h4>Abdul</h4>
                 </div>
-                <div class="task-deadline">
-
+                <div class="col col-lg-8 task-deadline">
+                  <form action="/action_page.php">
+                    <h3>Deadline <br> </h3>
+                    <input type="date" id="deadline" name="deadline">
+                  </form>
                 </div>
               </div>
+
             </div>
+
             <div class="kanban-third-row col">
               <span class="kanban-third-row-item">
                 <h6 style="display:inline;">Task hinzufuegen</h6>
@@ -380,24 +396,33 @@
                 <i class="fa fa-trash" style="font-size:20px"></i>
               </span>
             </div>
+
           </div>
         </div>
-          <div class=" kanban-first-row col col-lg-4 col-md-6 col-sm-12">
-            <h3>In Progress</h3>
-            <div class="kanban-second-row col">
-              <div class="task">
-                <div class="task-title">
+        <div class=" kanban-first-row col col-lg-4 col-md-6 col-sm-12">
+          <h3>In Progress</h3>
+          <div class="kanban-second-row col">
 
+            <div class="container task">
+
+              <div class="row" style="padding: 0; background-color: black;  border-radius: 15px 50px 30px;">
+                <h3 class="col" style="color: white; height: 40px;">Udemy learning</h3>
+              </div>
+              <div class="row">
+                <div class="col col-lg-4 task-workers">
+                  <i class="fa fa-female" style="font-size:36px;color:lightpink"></i>
+                  <h4>Fatema</h4>
+                  <i class="fa fa-male" style="font-size:36px;color:lightblue;"></i>
+                  <h4>Sameer</h4>
                 </div>
-                <div class="task-content">
-                  <div class="task-workers">
-
-                  </div>
-                  <div class="task-deadline">
-
-                  </div>
+                <div class="col col-lg-8 task-deadline">
+                  <form action="/action_page.php">
+                    <h3>Deadline <br> </h3>
+                    <input type="date" id="deadline" name="deadline">
+                  </form>
                 </div>
               </div>
+
               <div class="kanban-third-row col">
                 <span class="kanban-third-row-item">
                   <h6 style="display:inline;">Task hinzufuegen</h6>
@@ -410,24 +435,33 @@
                   <i class="fa fa-trash" style="font-size:20px"></i>
                 </span>
               </div>
+
             </div>
           </div>
-          <div class="kanban-first-row col col-lg-4 col-md-12 col-sm-12">
-            <h3>Done</h3>
-            <div class="kanban-second-row col">
-              <div class="task">
-                <div class="task-title">
+        </div>
+        <div class="kanban-first-row col col-lg-4 col-md-12 col-sm-12">
+          <h3>Done</h3>
+          <div class="kanban-second-row col">
+            <div class="container task">
 
+              <div class="row" style="padding: 0; background-color: black;  border-radius: 15px 50px 30px;">
+                <h3 class="col" style="color: white; height: 40px; ">Udemy learning</h3>
+              </div>
+              <div class="row">
+                <div class="col col-lg-4 task-workers">
+                  <i class="fa fa-female" style="font-size:36px;color:lightpink"></i>
+                  <h4>Nour</h4>
+                  <i class="fa fa-male" style="font-size:36px;color:lightblue;"></i>
+                  <h4>Nour</h4>
                 </div>
-                <div class="task-content">
-                  <div class="task-workers">
-
-                  </div>
-                  <div class="task-deadline">
-
-                  </div>
+                <div class="col col-lg-8 task-deadline">
+                  <form action="/action_page.php">
+                    <h3>Deadline <br> </h3>
+                    <input type="date" id="deadline" name="deadline">
+                  </form>
                 </div>
               </div>
+
               <div class="kanban-third-row col">
                 <span class="kanban-third-row-item">
                   <h6 style="display:inline;">Task hinzufuegen</h6>
@@ -439,11 +473,13 @@
                   <i class="fa fa-trash" style="font-size:20px"></i>
                 </span>
               </div>
+
             </div>
           </div>
         </div>
-
       </div>
+
+    </div>
     </div>
   </section>
 </body>
