@@ -101,7 +101,7 @@ input[type=submit]:hover {
 
 .kanbanBoard {
   /* text-align: center; */
-  height: 600px;
+  height: 700px;
   margin: 40px 0;
   /* opacity: 0.5; */
 }
@@ -132,7 +132,7 @@ input[type=submit]:hover {
 .kanban-second-row {
   background-color: #8bcdcd;
   padding: 20px;
-  height: 520px;
+  height: 550px;
 }
 
 .kanban-first-row {
