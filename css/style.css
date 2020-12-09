@@ -69,6 +69,22 @@ input[type=submit]:hover {
   width: 80%;
   border: 2px solid white;
 }
+.todolistImg{
+height: 500px;
+width: 800px;
+}
+.todolistTxt{
+font-family: "Comic Sans MS", cursive, sans-serif;
+font-size: 27px;
+letter-spacing: -1px;
+word-spacing: 2.6px;
+color: #583d72;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: normal;
+text-transform: capitalize;
+}
 
 .calculator {
   text-align: center;
@@ -88,17 +104,26 @@ input[type=submit]:hover {
 }
 
 .toDoList {
-  border-top: 2px solid;
-  border-bottom: 2px solid;
-  border-left: 0;
-  border-right: 0;
   text-align: center;
-  background-color: #7579e7;
   height: 600px;
   margin: 40px 0;
-  opacity: 0.5;
 }
-
+.toDoList:hover{
+  opacity: 0.9;
+}
+#toDoListTitle{
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 44px;
+  letter-spacing: -1px;
+  word-spacing: 1.8px;
+  color: #000000;
+  font-weight: 700;
+  text-decoration: line-through solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  margin-left: 820px;
+}
 .kanbanBoard {
   /* text-align: center; */
   height: 700px;
