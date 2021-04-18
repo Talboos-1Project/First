@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <?php include("store-header.php"); ?>
-    <title>Online Store</title>
-  </head>
-  <body>
-    <section>
-      <?php include("section-1.php"); ?>
-    </section>
+<?php include "store-header.php";?>
+<?php include "navbar_header.php";?>
 
-  </body>
+<body>
+<div class="container">
+    <div class="container">
+        <?php include "section-1.php"?>
+        <?php include "section-2.php"?>
+        <?php include "section-3.php"?>
+    </div>
+    <div class="container">
+        <?php include "sidebar.php"?>
+    </div>
+
+</div>
+
+
+<?php include "footer.php"?>
+</body>
 </html>
