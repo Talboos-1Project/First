@@ -1,5 +1,5 @@
 <div class="container p-3 my-3 bg-dark text-white">
-  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div id="online-shop-carousel" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
           <img src="../images/6.jpg" class="d-block w-100" alt="...">
