@@ -2,14 +2,14 @@
   padding-top: 80px;
 }
 
+#second-pic-caption {
+  right: 70%; left: 1%; color: #343a40;
+}
+
+#first-pic-caption {
+  left: 60%; right: 1%; color: #343a40;
+}
 /****************************************Section-1**********************************************/
 .carousel-image {
   width:100%;
-}
-
-.carosel-caption1 {
-  right: 70%;
-  left: 1%;
-  padding-bottom: 30px;
-
 }
