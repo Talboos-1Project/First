@@ -2,7 +2,7 @@
   <div class="container">
       <div class="row">
           <div class="col-sm">
-              <img class="img-fluid" src="../images/bnw.jpg" alt="background pic" width="500" height="600">
+              <img class="img-fluid" src="../images/news_letter_image.jpg" alt="background pic" width="500" height="600">
           </div>
           <div class="col-sm-6">
               <form>
