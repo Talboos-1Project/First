@@ -1,4 +1,128 @@
-<div class="container p-3 my-3 bg-primary text-white">
-    <h1>My First Bootstrap Page</h1>
-    <p>This container has a blue background color and a white text, and some extra padding and margins.</p>
-</div>
+<section>
+  <!-- <div class="container p-3 my-3 bg-dark"> -->
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+          <a href="#" class="nav-link category-tag active" data-toggle="tab">Kids</a>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link category-tag" data-toggle="tab">Women</a>
+      </li>
+      <li class="nav-item">
+          <a href="#" class="nav-link category-tag" data-toggle="tab">Men</a>
+      </li>
+    </ul>
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="home">
+          <div class="card-deck">
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 text-right">
+            <a href="" class="btn btn-secondary">To Shop</a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="profile">
+          <div class="card-deck">
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 text-right">
+            <a href="" class="btn btn-secondary">To Shop</a>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="messages">
+          <div class="card-deck">
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid1">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid2">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="../images/Captain.jpg" class="card-img-top" alt="Kid3">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+              </div>
+            </div>
+          </div>
+          <div class="p-2 text-right">
+            <a href="" class="btn btn-secondary">To Shop</a>
+          </div>
+        </div>
+    </div>
+  <!-- </div> -->
+</section>
