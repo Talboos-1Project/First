@@ -1,4 +1,4 @@
-<section id="third-section" style="background-color: #D8B88F;">
+<section id="third-section" style="">
   <div class="container-fluid p-5">
       <div class="row">
           <div class="col-sm">
@@ -45,7 +45,7 @@
                           <input type="text" class="form-control" id="inputZip">
                       </div>
                   </div>
-                  <button type="submit" class="btn btn-dark">Sign up</button>
+                  <button type="submit" class="btn sign-up-button">Sign up</button>
               </form>
           </div>
       </div>

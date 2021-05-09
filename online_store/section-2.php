@@ -1,15 +1,15 @@
-<section id="second-section" style="background-color: #5E3018;">
+<section id="second-section" style="">
   <!-- <div class="container p-3 my-3 bg-dark"> -->
   <div class="container-fluid p-5">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs pb-3 border-0">
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag active" data-toggle="tab" style="color: #D8B88F;">Kids</a>
+          <a href="#" class="nav-link category-tag active shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Kids</a>
       </li>
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag" data-toggle="tab" style="color: #D8B88F;">Women</a>
+          <a href="#" class="nav-link category-tag shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Women</a>
       </li>
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag" data-toggle="tab" style="color: #D8B88F;">Men</a>
+          <a href="#" class="nav-link category-tag shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Men</a>
       </li>
     </ul>
     <div class="tab-content">
@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn mt-4 to-shop-button" style="">To Shop</a>
           </div>
         </div>
         <div class="tab-pane fade" id="profile">
@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn to-shop-button" style="">To Shop</a>
           </div>
         </div>
         <div class="tab-pane fade" id="messages">
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary" style="background-color: #D8B88F;">To Shop</a>
+            <a href="shopping/shopping.php" class="btn to-shop-button" style="">To Shop</a>
           </div>
         </div>
     </div>
