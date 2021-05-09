@@ -1,8 +1,8 @@
-<section>
-  <div class="container">
+<section id="third-section" style="background-color: #D8B88F;">
+  <div class="container-fluid p-5">
       <div class="row">
           <div class="col-sm">
-              <img class="img-fluid" src="../images/news_letter_image.jpg" alt="background pic" width="500" height="600">
+              <img class="img-fluid pb-3" src="../images/NP.png" alt="background pic" width="500" height="600">
           </div>
           <div class="col-sm-6">
               <form>
