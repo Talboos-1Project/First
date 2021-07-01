@@ -47,7 +47,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn btn-secondary">To Shop</a>
           </div>
         </div>
         <div class="tab-pane fade" id="profile">
@@ -84,7 +84,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn btn-secondary">To Shop</a>
           </div>
         </div>
         <div class="tab-pane fade" id="messages">
@@ -121,7 +121,7 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="" class="btn btn-secondary" style="background-color: #D8B88F;">To Shop</a>
+            <a href="shopping/shopping.php" class="btn btn-secondary" style="background-color: #D8B88F;">To Shop</a>
           </div>
         </div>
     </div>
