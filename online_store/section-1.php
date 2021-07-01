@@ -1,6 +1,6 @@
-<section class="container-fluid" id="first-section" style="background-color: #D8B88F;">
+<section class="container-fluid" id="first-section" style="">
   <div class="container-fluid p-5">
-    <div class="container p-3 my-3 bg-dark text-white">
+    <div class="container my-3 p-3 screen" style="">
       <div id="online-shop-carousel" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">

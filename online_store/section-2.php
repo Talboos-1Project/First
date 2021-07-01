@@ -1,19 +1,20 @@
-<section id="second-section" style="background-color: #5E3018;">
+<section id="second-section" style="">
   <!-- <div class="container p-3 my-3 bg-dark"> -->
   <div class="container-fluid p-5">
-    <ul class="nav nav-tabs">
+    <ul class="nav nav-tabs pb-3 border-0">
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag active" data-toggle="tab" style="color: #D8B88F;">Kids</a>
+          <a href="#" onclick="changeCollection('Kids')" class="nav-link category-tag active shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Kids</a>
       </li>
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag" data-toggle="tab" style="color: #D8B88F;">Women</a>
+          <a href="#" onclick="changeCollection('Women')" class="nav-link category-tag shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Women</a>
       </li>
       <li class="nav-item">
-          <a href="#" class="nav-link category-tag" data-toggle="tab" style="color: #D8B88F;">Men</a>
+          <a href="#" onclick="changeCollection('Men')" class="nav-link category-tag shoes-tabs" data-toggle="tab" style="color: #D8B88F;background-color: inherit;">Men</a>
       </li>
     </ul>
+
     <div class="tab-content">
-        <div class="tab-pane fade show active" id="home">
+        <div class="tab-pane fade show active" id="Kids-Collection">
           <div class="card-deck">
             <div class="card">
               <img src="../images/Child_shoes_1.webp" class="card-img-top" alt="Kid1">
@@ -47,10 +48,10 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="shopping/shopping.php" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn mt-4 to-shop-button">To Shop</a>
           </div>
         </div>
-        <div class="tab-pane fade" id="profile">
+        <div class="tab-pane fade show" id="Women-Collection">
           <div class="card-deck">
             <div class="card">
               <img src="../images/Captain.jpg" class="card-img-top" alt="Kid1">
@@ -84,10 +85,10 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="shopping/shopping.php" class="btn btn-secondary">To Shop</a>
+            <a href="shopping/shopping.php" class="btn to-shop-button" style="">To Shop</a>
           </div>
         </div>
-        <div class="tab-pane fade" id="messages">
+        <div class="tab-pane fade show" id="Men-Collection">
           <div class="card-deck">
             <div class="card">
               <img src="../images/Captain.jpg" class="card-img-top" alt="Kid1">
@@ -121,11 +122,36 @@
             </div>
           </div>
           <div class="p-2 text-right">
-            <a href="shopping/shopping.php" class="btn btn-secondary" style="background-color: #D8B88F;">To Shop</a>
+            <a href="shopping/shopping.php" class="btn to-shop-button" style="">To Shop</a>
           </div>
         </div>
     </div>
   </div>
-
-  <!-- </div> -->
 </section>
+<script>
+    function changeCollection(collectionName)
+    {
+      switch (collectionName) {
+        case 'Kids' :
+          document.getElementById('Women-Collection').classList.remove("active");
+          document.getElementById('Men-Collection').classList.remove("active");
+          document.getElementById('Kids-Collection').classList.add("active");
+          break;
+        case 'Men':
+          document.getElementById('Kids-Collection').classList.remove("active");
+          document.getElementById('Women-Collection').classList.remove("active");
+          document.getElementById('Men-Collection').classList.add("active");
+          break;
+        case 'Women':
+          document.getElementById('Kids-Collection').classList.remove("active");
+          document.getElementById('Men-Collection').classList.remove("active");
+          document.getElementById('Women-Collection').classList.add("active");
+          break;
+        default:
+          alert("Kids");
+          document.getElementById('Kids-Collection').classList.add("active");
+          document.getElementById('Women-Collection').classList.remove("active");
+          document.getElementById('Men-Collection').classList.remove("active");
+      }
+    }
+</script>
